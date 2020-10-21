@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuOrderPage">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="408dp"
+        android:layout_height="467dp"
+        android:layout_marginTop="120dp"
+        android:fillViewport="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTaxesChicken"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/TaxesChicken" />
+
+            <Button
+                android:id="@+id/btnKFC"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/KFC" />
+
+            <Button
+                android:id="@+id/btnMcDonals"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/McDonalds" />
+
+            <Button
+                android:id="@+id/btnTeaLive"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/TeaLive" />
+
+            <Button
+                android:id="@+id/btnDominoPizza"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="@string/DominoPizza" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/SystemClock"
+        android:layout_width="248dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="28dp"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Login Time:"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

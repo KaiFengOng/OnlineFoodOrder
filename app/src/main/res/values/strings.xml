@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Food Order</string>
+
+    //LoginPage
+    <string name="PassMsg">Enter Your Email To Receive A Message To Reset Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="RestPassword">Reset Password</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    //RegisterPage
+    <string name="RegisterNewUser">Register New User</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="Description1">Please Fill In All Your Details To Register As New User</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPass">Confirm Password</string>
+    <string name="ReturnHomePage">Return Home Page</string>
+
+    //MenuOrderPage
+    <string name="Pay">Pay</string>
+    <string name="TaxesChicken">Taxes Chicken</string>
+    <string name="KFC">KFC</string>
+    <string name="McDonalds">Mc Donalds</string>
+    <string name="TeaLive">Tea Live</string>
+    <string name="DominoPizza">Domino Pizza</string>
+    <string name="title_activity_pizza_hut">PizzaHut</string>
+
+    //McDonald
+    <string name="BaconBBQBurger">Bacon BBQ Burger: RM17.00</string>
+    <string name="DoubleBaconBBQBurger">Double Bacon BBQ Burger: RM20.00</string>
+    <string name="FiletOFish">Filet O Fish: RM15.00</string>
+    <string name="McChicken">Mc Chicken: RM12.00</string>
+    <string name="Porridge">Porridge: RM10.00</string>
+
+    //Domino Pizza
+    <string name="ChickenConfidential">Chicken Confidential: RM30.00</string>
+    <string name="MeataSaurus">Meata Saurus: RM30.00</string>
+    <string name="PrawnPassion">Prawn Passion: RM30.00</string>
+    <string name="SimplyCheese">Simply Cheese: RM 25.00</string>
+    <string name="UltimateHawaiian">Ultimate Hawaiian: RM 28.00</string>
+    <string name="SmokyBeefandChick">Smoky Beef and Chick: RM40.00</string>
+
+    //KFC
+    <string name="ExtraCrispy">Extra Crispy 15pcs: RM45.00</string>
+    <string name="ExtraCrispyTender">Extra Crispy Tender: RM17.00</string>
+    <string name="FamousBowl">Famous Bowl: RM15.00</string>
+    <string name="TheOriginal">The Original 15pcs: RM40.00</string>
+
+    //Taxes Chicken
+    <string name="HoneyButterBisc">Honey Butter Bisc 6pcs: RM21.00</string>
+    <string name="Mexicanawrap">Mexicana Wrap: RM 10.00</string>
+    <string name="Nuggets">Nuggets 6pcs: RM25.00 </string>
+    <string name="SpicyChicken">Spicy Chicken 12pcs: RM45.00</string>
+    <string name="TaxWrap">Taxes Wrap: RM13.00</string>
+
+    //Tea Life
+    <string name="ClassicRostedMilkTeaWthGrassJelly">Classic Roasted Wth Grass Jelly: RM15.00</string>
+    <string name="HazelnutMilkTea">Hazel Nut Milk Tea: RM15.00</string>
+    <string name="MaltyMilkTeaHorlicks">Malty Milk Tea Horlicks: RM17.00</string>
+    <string name="OriginalPearlMilkTea">Original Pearl Milk Tea: RM13.00</string>
+    <string name="RedBeanPearlMilkTea">Red Bean Pearl Milk Tea: RM17.00</string>
+    <string name="SignatureBrownSugerPearlMilkTea">Signature Brown Suger Pearl Milk Tea: RM18.00</string>
+
+    //Word Sharing
+    <string name="Back">Back</string>
+    <string name="Place_Order">Place Order</string>
+    <string name="Confirm_Order">Confirm Order</string>
+    <string name="Message1">Once Confirm You May Proceed to Payment</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+    <string name="TotalQty">Total Quantity:</string>
+    <string name="TotalPrice">Total Price:RM</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="ReOrder">ReOrder</string>
+
+    //Payment
+    <string name="Payment">Online Payment</string>
+    <string name="ConfirmPayment">Confirm Payment</string>
+    <string name="CancelPayment">Cancel Payment</string>
+    <string name="ConfirmCancel">Cancel</string>
+    <string name="ConfirmReturn">Return</string>
+
+    <string name="Instruction1">Please Enter Your Card Number</string>
+    <string name="Instruction2">Please Select Your Card Type</string>
+    <string name="TotalQuantity">Total Quantity Place In Order</string>
+    <string name="TotalOrderQuantity">Total Order Quantity :</string>
+    <string name="TotalCharges">Total Charges(Including Delivery Charge) :</string>
+    <string name="Instruction3">8% Delivery Charge Will Be Calculate From The Total Amount</string>
+    <string name="Alert">Once You Cancel Payment, Your Order Will Also Be Cancel </string>
+    <string name="Instruction4">Please Enter Your CVC Number</string>
+    <string name="Instruction5">Please Enter Your Card Expiry Date</string>
+
+
+    //Card Name
+    <string name="Visa">Visa</string>
+    <string name="MasterCard">Master Card</string>
+
+    //Receipt
+    <string name="Receipt">Online Receipt</string>
+    <string name="Description6">Your Order Will Be Deliver WithIn 10mins</string>
+    <string name="Description7">Thank You For Using App To Place Order</string>
+    <string name="Description8">Please Keep This Receipt For Your Further Referenced</string>
+    <string name="Description9">Total Price Charges Included The Delivery Charge</string>
+
+    //Splash Screen
+    <string name="Welcome">Welcome To Online Food Order</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

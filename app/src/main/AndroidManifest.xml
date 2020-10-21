@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodorder">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@mipmap/ic_launcher_foreground"
+
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginPage" />
+        <activity android:name=".MenuOrderPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".DominoPizza" />
+        <activity android:name=".TeaLife" />
+        <activity android:name=".McDonalds" />
+        <activity android:name=".KFC" />
+        <activity android:name=".TaxesChicken" />
+
+        <activity android:name=".PaymentOrder" />
+        <activity android:name=".Receipt" />
+
+        <activity android:name=".Register" />
+
+    </application>
+
+</manifest>
